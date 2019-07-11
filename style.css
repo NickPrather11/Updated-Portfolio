@@ -1,0 +1,157 @@
+header {
+  height: 80px;
+  background: #ffffff;
+  border-bottom: 2px solid #cccccc;
+  overflow: auto;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/what-the-hex.png);
+}
+
+#name {
+  text-align: center;
+  width: 200px;
+  height: 100%;
+  float: left;
+  margin-left: 2rem;
+  color: #ffffff;
+  background: #4aaaa5;
+  font-size: 30px;
+  line-height: 2.4;
+}
+
+.headerLink {
+  float: right;
+  padding: 20px;
+  color: #777777;
+}
+
+.mainBackground {
+  width: 100%;
+  overflow: hidden;
+  flex: 1 0 auto;
+}
+
+.mainBackground .container {
+  position: relative;
+  margin-left: 2rem;
+  margin-top: 5%;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  width: 90%;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  overflow: auto;
+}
+
+h1 {
+  color: #4aaaa5;
+  margin: 20px;
+}
+
+.container #divider {
+  position: relative;
+  margin: auto;
+  margin-bottom: 5px;
+  height: 1px;
+  width: 90%;
+  background: grey;
+}
+
+#bioPic {
+  height: 200px;
+  width: 200px;
+  float: left;
+}
+
+#bioText {
+  color: #777777;
+}
+
+footer {
+  height: 100px;
+  background: #666666;
+  border-top: 4px solid #4aaaa5;
+  margin-bottom: 0;
+  margin-top: 20px;
+  flex-shrink: 0;
+}
+
+#form {
+  margin-left: 10px;
+}
+
+.portfPic {
+  height: 200px;
+  width: 200px;
+}
+
+.portfLabel {
+  text-align: center;
+  width: 200px;
+  height: 20px;
+  color: #ffffff;
+  background: #4aaaa5;
+}
+
+.container .project {
+  position: relative;
+  width: 200px;
+  border: 1px solid #dddddd;
+  float: left;
+  margin: 1rem;
+  overflow: auto;
+}
+
+.project1 .portfLabel {
+  position: absolute;
+  bottom: 0;
+}
+
+@media only screen and (max-width: 980px) and (min-width: 769px) {
+  /* Not sure if there should be any changes here, since this is the default setting...? */
+}
+
+@media only screen and (max-width: 768px) and (min-width: 641px) {
+  #name {
+    margin-left: 0px;
+  }
+
+  .headerLink {
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  #name {
+    margin-left: 0px;
+    width: 100%;
+  }
+
+  .headerLink {
+    padding: 5px;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+  }
+
+  .links {
+    display: flex;
+    justify-content: center;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #divider {
+    width: 220px;
+  }
+}
