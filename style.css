@@ -31,18 +31,15 @@ body {
 }
 
 .mainBackground {
-  width: 100%;
   overflow: hidden;
   flex: 1 0 auto;
 }
 
 .mainBackground .container {
   position: relative;
-  margin-left: 2rem;
   margin-top: 5%;
   background: #ffffff;
   border: 1px solid #cccccc;
-  width: 90%;
   font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
   overflow: auto;
 }
@@ -62,8 +59,6 @@ h1 {
 }
 
 #bioPic {
-  height: 200px;
-  width: 200px;
   float: left;
   margin: 1rem;
 }
@@ -85,31 +80,17 @@ footer {
   margin-left: 10px;
 }
 
+.containHead {
+  text-align: center;
+}
 .portfPic {
-  height: 200px;
-  width: 200px;
+  width: 100%;
 }
 
 .portfLabel {
   text-align: center;
-  width: 200px;
-  height: 20px;
   color: #ffffff;
   background: #4aaaa5;
-}
-
-.container .project {
-  position: relative;
-  width: 200px;
-  border: 1px solid #dddddd;
-  float: left;
-  margin: 1rem;
-  overflow: auto;
-}
-
-.project1 .portfLabel {
-  position: absolute;
-  bottom: 0;
 }
 
 #contactContent {

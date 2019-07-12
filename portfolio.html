@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
@@ -17,42 +23,34 @@
       </div>
     </header>
     <div class="mainBackground">
-      <section class="container">
-        <h1>Portfolio</h1>
+      <div class="container">
+        <div class="containHead">
+          <h1>Portfolio</h1>
+        </div>
         <br />
         <div id="divider"></div>
         <br />
-        <div class="project">
-          <a href="https://theriverotters.bandcamp.com/" target="_blank">
-            <img class="portfPic" src="images/River_Otters.jpg" />
-          </a>
-          <div class="portfLabel">River Otters</div>
+        <div class="row justify-content-md-center">
+          <div class="project col-lg-3">
+            <a href="https://adishthapa.github.io/UNCBootcamp-Project01/" target="_blank">
+              <img class="portfPic" src="images/Brewery_Project.PNG" />
+            </a>
+            <div class="portfLabel">NC Breweries Project</div>
+          </div>
+          <div class="project col-lg-3">
+            <a href="https://nickprather11.github.io/unit-4-game/" target="_blank">
+              <img class="portfPic" src="images/Gluttony_Game.PNG" />
+            </a>
+            <div class="portfLabel">Gluttony Game</div>
+          </div>
+          <div class="project col-lg-3">
+            <a href="https://nickprather11.github.io/TriviaGame/" target="_blank">
+              <img class="portfPic" src="images/Lebowski_Trivia.PNG" />
+            </a>
+            <div class="portfLabel">Lebowski Trivia</div>
+          </div>
         </div>
-        <div class="project">
-          <a href="https://hellohugo.bandcamp.com/album/if-section-secrets" target="_blank">
-            <img class="portfPic" src="images/If_Section_Secrets.jpg" />
-          </a>
-          <div class="portfLabel">If Section Secrets</div>
-        </div>
-        <div class="project">
-          <a href="https://soundcloud.com/ggsie/sets/geometric-turquoise-bird" target="_blank">
-            <img class="portfPic" src="images/GGsIE_GTB.jpg" />
-          </a>
-          <div class="portfLabel">GGsIE</div>
-        </div>
-        <div class="project">
-          <a href="https://hellohugo.bandcamp.com/album/motorcycle-milkman" target="_blank">
-            <img class="portfPic" src="images/MotorMilk.jpg" />
-          </a>
-          <div class="portfLabel">Motorcycle Milkman</div>
-        </div>
-        <div class="project">
-          <a href="https://hellohugo.bandcamp.com/album/hello-hugo" target="_blank">
-            <img class="portfPic" src="images/Hello_Hugo_ST.jpg" />
-          </a>
-          <div class="portfLabel">Hello Hugo</div>
-        </div>
-      </section>
+      </div>
     </div>
     <footer></footer>
   </body>
