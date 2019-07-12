@@ -41,7 +41,7 @@ body {
   margin-left: 2rem;
   margin-top: 5%;
   background: #ffffff;
-  border: 1px solid #dddddd;
+  border: 1px solid #cccccc;
   width: 90%;
   font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
   overflow: auto;
@@ -65,10 +65,11 @@ h1 {
   height: 200px;
   width: 200px;
   float: left;
+  margin: 1rem;
 }
 
-#bioText {
-  color: #777777;
+p {
+  margin: 1rem;
 }
 
 footer {
@@ -109,6 +110,10 @@ footer {
 .project1 .portfLabel {
   position: absolute;
   bottom: 0;
+}
+
+#contactContent {
+  margin: 1rem;
 }
 
 @media only screen and (max-width: 980px) and (min-width: 769px) {
