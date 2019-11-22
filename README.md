@@ -1,5 +1,7 @@
 # Updated-Portfolio
 
+A NEWER VERSION OF MY PORTFOLIO CAN BE FOUND HERE: https://nick-prather-portfolio.herokuapp.com/
+
 Deployed here:
 https://nickprather11.github.io/Updated-Portfolio/
 
